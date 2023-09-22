@@ -1,11 +1,4 @@
-:root {
-  --open-sans: "Open Sans", sans-serif;
-  --poppins: "Poppins", sans-serif;
-
-  --preto: rgb(22, 22, 22);
-  --branco: #fff;
-  --rosa: #ee015e;
-}
+@import url(root.css);
 
 * {
   margin: 0;
@@ -18,7 +11,7 @@ body {
 }
 
 header {
-  height: 6rem;
+  height: 4rem;
   width: 100%;
   background-color: var(--branco);
 }
@@ -95,12 +88,12 @@ section {
 }
 
 .inscrever {
-  background-color: var(--rosa);
-  color: var(--branco);
+  background-color: var(--limon);
+  color: var(--lightblue);
 }
 
 .saiba-mais {
-  background-color: var(--preto);
+  background-color: var(--lightblue);
   color: var(--branco);
 }
 
@@ -120,7 +113,7 @@ footer {
 }
 
 .autor a {
-  color: var(--rosa);
+  color: var(--limon);
   padding: 0 5px;
   text-decoration: none;
 }
